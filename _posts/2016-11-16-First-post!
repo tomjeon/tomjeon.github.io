@@ -1,23 +1,9 @@
 ---
 layout: post
-title: First post
+title: Analyzing Any E-Commerce Data
 ---
 
-NOTE :
-------
-
-If you're new to RStudio, you may need to download these packages to be able to knit this document:
-
-``` r
-install.packages("rmarkdown")
-install.packages("dplyr")
-install.packages("ggplot2")
-install.packages("randomForest")
-```
-
-You also need to change the working directory in line 29 of this `.Rmd` file.
-
-Knitting will take a little while especially at 96%, so just sit tight lol.
+Every e-commerce website has similar data. This is an example of how I would approach analyzing such datasets.
 
 Exploratory Analytics
 ---------------------
@@ -116,17 +102,6 @@ I'll just pick a couple of variables as an example, but you should do it with al
 ``` r
 library(dplyr)
 ```
-
-    ## 
-    ## Attaching package: 'dplyr'
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     filter, lag
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     intersect, setdiff, setequal, union
 
 ``` r
 dat_country <- clean_dat %>%
