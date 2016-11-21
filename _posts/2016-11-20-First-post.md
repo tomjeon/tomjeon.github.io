@@ -3,7 +3,7 @@ layout: post
 title: Analyzing E-Commerce Data
 ---
 
-I used this as a tutorial for uGRID members in the Fall semester of 2016.
+I used this as a tutorial for uGRID in the Fall semester of 2016.
 
 Exploratory Analytics
 ---------------------
