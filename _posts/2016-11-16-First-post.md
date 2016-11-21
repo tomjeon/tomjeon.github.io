@@ -3,7 +3,7 @@ layout: post
 title: Analyzing E-Commerce Data
 ---
 
-Every e-commerce website has similar data. I used this as a tutorial for uGRID members in the Fall semester of 2016.
+I used this as a tutorial for uGRID members in the Fall semester of 2016.
 
 Exploratory Analytics
 ---------------------
