@@ -139,7 +139,7 @@ ggplot(dat_country, aes(x = country, y = conversion_rate)) +
   geom_bar(stat = "identity", aes(fill = country))
 ```
 
-![](/img/sample_feature_img_2.png)
+![]({{site.baseurl}}/assets/img/geom_bar1.png)
 
 So it's apparent that the Chinese convert at a much lower rate than other countries.
 
@@ -153,7 +153,7 @@ qplot(total_pages_visited, conversion_rate, data = dat_pages, geom = "line",
       main = "Proxy for time spent on site vs. probability of conversion")
 ```
 
-![](/img/unnamed-chunk-7-1.png)
+![]({{site.baseurl}}/assets/img/qplot.png)
 
 I just want to mention that on these projects, focus on your strengths and interests. If visualization is your main strength/interest, spend as much time as you wish on that and come up with something great. If you ahve other strengths and interests, spend more time on those. These projects are pretty open-ended by design. By seeing where you spend more time, we each can also understand your strengths/interests and where you'd fit best in the future.
 
@@ -233,7 +233,7 @@ Let's check variable importance:
 varImpPlot(rf, type = 2)
 ```
 
-![](/img/unnamed-chunk-9-1.png)
+![]({{site.baseurl}}/assets/img/varImpPlot1.png)
 
 Total pages visited is the most important by far. Unfortunately, it is probably the least "actionable". People might visit many pages because they already know what they want to buy and in order to buy things you have to click on more pages.
 
@@ -272,7 +272,7 @@ Rechecking variable importance:
 varImpPlot(rf2, type = 2)
 ```
 
-![](/img/unnamed-chunk-11-1.png)
+![]({{site.baseurl}}/assets/img/varImpPlot2.png)
 
 Interesting. `new_user` is most important one now. Source doesn't seem to matter at all.
 
@@ -287,7 +287,7 @@ partialPlot(rf2, train_dat, new_user, 1)
 partialPlot(rf2, train_dat, source, 1)
 ```
 
-![](/img/unnamed-chunk-12-1.png)
+![]({{site.baseurl}}/assets/img/partial_dependence.png)
 
 So this shows that:
 
