@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Analyzing Any E-Commerce Data
+title: Analyzing E-Commerce Data
 ---
 
-Every e-commerce website has similar data. This is an example of how I would approach analyzing such datasets.
+Every e-commerce website has similar data. I used this as a tutorial for uGRID members in the Fall semester of 2016.
 
 Exploratory Analytics
 ---------------------
@@ -83,9 +83,9 @@ subset(dat, age > 100)
 
 Ok, so it's just two users. Not a big deal. We can just remove them and nothing would change. In general, depending on the problem, you can
 
--   remove the entire row, saying you just don't trust any data associated with that
--   treat those values (in this case `age`) as `NA`s
--   if there is a pattern, try to figure out what went wrong (schema design, some fundamental flaw in data collection process)
+-   Remove the entire row, saying you just don't trust any data associated with that
+-   Treat those values (in this case `age`) as `NA`s
+-   If there is a pattern, try to figure out what went wrong (schema design, some fundamental flaw in data collection process)
 
 When you have a lot of data as we do here, it's safest to just delete the row.
 
