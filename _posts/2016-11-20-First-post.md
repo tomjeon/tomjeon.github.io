@@ -5,6 +5,8 @@ title: Analyzing E-Commerce Data
 
 I used this as a tutorial for uGRID in the Fall semester of 2016.
 
+<!--description-->
+
 Exploratory Analytics
 ---------------------
 
