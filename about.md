@@ -5,11 +5,9 @@ permalink: /about/
 ---
 
 <div>
-This is a simple Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/).  Plus, you can find a lot of themes at [jekyllthemes.org](http://jekyllthemes.org/)
+This is where I hope to write about my thoughts on data science and data science related events. Right now, I'm interested in how data science is used in industry of various types (e.g. startups, big corporations), big data ethics, data science teaching pedagogy, as well as academic research in unsupervised learning, data quality, Bayesian methods, and network analysis.
 
-You can find the source code for this theme at: <data data-icon="ei-sc-github"></data>  [jekyll-simple](https://github.com/wild-flame/jekyll-simple)
-
-You can find the source code for Jekyll at <data data-icon="ei-sc-github"></data>  [jekyll](https://github.com/jekyll/jekyll)
+Here's a link to my [LinkedIn profile](https://www.linkedin.com/in/tom-jeon/).
 
 <footer class="article-footer" mar>
   {% include author.html %}
